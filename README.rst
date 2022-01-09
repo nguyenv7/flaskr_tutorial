@@ -1,3 +1,18 @@
+# Disclaim:
+This code is originally from `https://github.com/pallets/flask`
+
+The purpose is made this Python web app is able to run on DigitalOcean CloudApp: `https://cloud.digitalocean.com/apps/new` as this tutorial `https://docs.digitalocean.com/products/app-platform/languages-frameworks/python/flask/`
+
+Made add/modification on 
+```
+setup.cfg
+app.py
+gunicorn_config.py
+Procfile
+```
+
+and remember to add `build_command: pip install -e .` in the cloud instance configuration
+
 Flaskr
 ======
 
